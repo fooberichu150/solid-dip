@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solid.DependencyInversion", "Solid.DependencyInversion\Solid.DependencyInversion.csproj", "{E82FB8F8-A0F2-4604-BB2E-3CADAB49F6C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solid.DependencyInversion.BusinessLogic", "Solid.DependencyInversion.BusinessLogic\Solid.DependencyInversion.BusinessLogic.csproj", "{3E9C700A-F9E8-44B9-B49A-22384D471475}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solid.DependencyInversion.Contracts", "Solid.DependencyInversion.Contracts\Solid.DependencyInversion.Contracts.csproj", "{3A4D2BF7-9844-48C9-9A45-FB312B0FC7BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{E82FB8F8-A0F2-4604-BB2E-3CADAB49F6C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E82FB8F8-A0F2-4604-BB2E-3CADAB49F6C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E82FB8F8-A0F2-4604-BB2E-3CADAB49F6C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E9C700A-F9E8-44B9-B49A-22384D471475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E9C700A-F9E8-44B9-B49A-22384D471475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E9C700A-F9E8-44B9-B49A-22384D471475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E9C700A-F9E8-44B9-B49A-22384D471475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A4D2BF7-9844-48C9-9A45-FB312B0FC7BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A4D2BF7-9844-48C9-9A45-FB312B0FC7BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A4D2BF7-9844-48C9-9A45-FB312B0FC7BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A4D2BF7-9844-48C9-9A45-FB312B0FC7BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

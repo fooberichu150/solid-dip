@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
-using Solid.DependencyInversion.DTO;
+using Solid.DependencyInversion.BusinessLogic.Models;
+using Solid.DependencyInversion.Contracts.Models;
+using Solid.DependencyInversion.Contracts.Services;
 
 namespace Solid.DependencyInversion.Services
 {
-	public class WeatherForecastService
+	public class WeatherForecastService : IWeatherForecastService
 	{
 		private static readonly string[] Summaries = new[]
 		{
@@ -29,7 +30,7 @@ namespace Solid.DependencyInversion.Services
 				.ToList();
 		}
 
-		public IEnumerable<WeatherForecast> GetWeatherForecasts(int count = 5)
+		public IEnumerable<IWeatherForecast> GetWeatherForecasts(int count = 5)
 		{
 			return _weatherForecasts
 				.Take(count)

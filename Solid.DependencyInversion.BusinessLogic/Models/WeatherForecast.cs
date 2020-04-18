@@ -1,8 +1,9 @@
 using System;
+using Solid.DependencyInversion.Contracts.Models;
 
-namespace Solid.DependencyInversion.DTO
+namespace Solid.DependencyInversion.BusinessLogic.Models
 {
-	public class WeatherForecast
+	public class WeatherForecast : IWeatherForecast
 	{
 		public DateTime Date { get; set; }
 

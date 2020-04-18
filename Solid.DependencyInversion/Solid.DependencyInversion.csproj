@@ -4,5 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Solid.DependencyInversion.BusinessLogic\Solid.DependencyInversion.BusinessLogic.csproj" />
+    <ProjectReference Include="..\Solid.DependencyInversion.Contracts\Solid.DependencyInversion.Contracts.csproj" />
+  </ItemGroup>
+
 
 </Project>
