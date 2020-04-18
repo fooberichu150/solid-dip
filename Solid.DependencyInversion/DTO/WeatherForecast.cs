@@ -1,6 +1,6 @@
 using System;
 
-namespace Solid.DependencyInversion
+namespace Solid.DependencyInversion.DTO
 {
 	public class WeatherForecast
 	{
